@@ -1,11 +1,11 @@
 // Input nama
 const nama = prompt("Masukkan Nama:");
 
-// Input umur
-const umur = prompt("Masukkan Umur:");
+// Input umur dan konversi ke tipe data angka
+const umur = parseInt(prompt("Masukkan Umur:")); // Menggunakan parseInt() untuk mengonversi ke tipe data angka
 
 // Cek umur
-if (umur >= 13) { // Mengubah kondisi menjadi umur >= 13
+if (umur >= 13) {
     // Pilih studio
     const studio = prompt("Pilih studio (A, B, atau C):").toUpperCase();
 
