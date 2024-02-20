@@ -5,7 +5,7 @@ const nama = prompt("Masukkan Nama:");
 const umur = prompt("Masukkan Umur:");
 
 // Cek umur
-if (umur > 13) {
+if (umur >= 13) { // Mengubah kondisi menjadi umur >= 13
     // Pilih studio
     const studio = prompt("Pilih studio (A, B, atau C):").toUpperCase();
 
